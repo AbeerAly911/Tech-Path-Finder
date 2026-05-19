@@ -1,0 +1,63 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+#hero, #quiz {
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+/* TITLE */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+button {
+  padding: 12px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff00cc, #3333ff);
+  color: white;
+}
+
+/* OPTIONS */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.option {
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  cursor: pointer;
+}
+
+.option.selected {
+  background: #00f2fe;
